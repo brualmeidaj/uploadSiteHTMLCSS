@@ -1,0 +1,10 @@
+background-image: url(assets/PELOURINHO3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display:inline-block;
+    text-transform: uppercase;
+    padding: 12px 200;
+    margin: 10% 0;
+    width: 3000;

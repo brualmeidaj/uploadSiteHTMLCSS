@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    max-width: 1100 px;
+    margin: 3 auto;
+    padding: 0 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-image: url(assets/PELOURINHO3.jpg);
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 30px 0;
+    border-bottom: 0px solid #014c9c;
+}
+
+.logo {
+    width: 43%;
+}
+
+.menu{
+    text-align:center;
+}
+
+.menu a{
+    color: #f7941d;
+    font-size: 18px;
+    text-decoration:none;
+    margin-right: 10px;
+    transition: 0.4s;
+}
+
+.imgmenu{
+    margin: 0%;
+    padding: 0 30px;
+}
+
+.menu a:hover{
+    color:#f15922;
+}
+
+/*
+Section Main
+*/
+
+section.main{
+    background-image: url('assets/PELOURINHO2.jpg');
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.about{
+    background-image: url(assets/PELOURINHO3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: inline-flex;
+}
+
+.main_cta{
+    text-transform: initial;
+    display: inline-flex;
+    text-align: left;
+    color: #fff;
+    padding: 40px 2;
+}
+
+.main_cta h2{
+    margin: 0%;
+    padding: 25px;
+
+}
+
+.main_cta button{
+    background-color: #f15922;
+    padding: 15px 145px;
+    margin: 0% 30;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-top: 40;
+    cursor: pointer;
+    border-color: #a83803;
+
+}
+
+
+.main_cta p{
+    margin: 0%;
+    padding: 30px 30;
+    margin-top: 40;
+}
+
+.textone h2{
+    margin: 3%;
+    color: #fff;
+    text-align: center;
+}
+
+.textone p{
+    margin:3%;
+    color: #fff;
+    text-align: center;
+}
+
+.diferenciais{
+    display:flex;
+    text-transform: uppercase;
+}
+
+.diferenciais-titulo{
+    color:white;
+    font-display: inherit;
+    text-align: center;
+    font-size: 20px;
+    margin: 5%;
+}
+
+.diferencial-single {
+    background-color: #fff;
+    width: 25%;
+    margin: 1%;
+    padding: 23px 190;
+    text-align: center; 
+    font-size: 13px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+.diferencial-single h2{
+    color: black;
+    font-size: 35px;
+}
+
+.diferencial-single p{
+    color: black;
+    margin: 3px;
+    text-transform: initial;
+}
+
+.diferencial-single button{
+    background-color: #f15922;
+    display: inline-block;
+    padding: 15px 50px;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    border-color: #a83803;
+}
+
+
+.topsix{
+    background-image: url(assets/PELOURINHO3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.chamada-topsix{
+    text-align: center;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+.lista-topsix{
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    padding: 3px 10;
+    width: 400px;
+    line-height: 40px;
+    margin: 140px;
+}
+
+.lista-topsix i{
+    color: #fff;
+    display: flex;
+}
+
+.lista-topsixdown{
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    margin: 40px;
+    padding: 10px 90;
+    width: 500px;
+    line-height: 40px;
+}
+
+.lista-topsixdown i{
+    color: #fff;
+    display: flex;
+}
+
+.title-opinions{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 60;
+    color:#fff
+}
+
+.img{
+    background-image: url('assets/PELOURINHO2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.opinions-box{
+    background-color: #fff;
+    font-display: inherit;
+    width: 20%;
+    margin: 1%;
+    padding: 17px 84;
+    text-align: center; 
+    font-size: 15px;
+    line-height: 23px;
+    display:inline-block;
+    border-radius: 5%;
+}
+
+.primeiraparte{
+    display: inline-flex;
+    margin-top: 20;
+    padding: 10;
+}
+
+.primeiraparte h2{
+    text-align: center;
+    padding: 25%;
+}
+
+.segundaparte{
+    margin-top: 20;
+}
+
+.opinions button{
+    background-color: #f15922;
+    padding: 10px 80;
+    width: 20%;
+    border-radius: 6px;
+    color:#fff;
+    cursor: pointer;
+    border-color: #a83803;
+    margin: 40px 600;
+    height: 40px 10;
+}
+
+.Best-foods{
+    background-image: url(assets/PELOURINHO3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.foods{
+    display: inline-block;
+    width: 330px;
+    padding: 0px 20;
+    color:#fff;
+}
+
+.foods p{
+    margin: 0%;
+    width: 5px;
+    font-size: 30px;
+    text-transform: initial;
+    padding: 19%;
+}
+
+.title-foods{
+    text-align: center; 
+    color:#fff;
+    text-transform: uppercase;
+    margin: 0px 20;
+    padding: 60;
+}
+
+.send-your-opinion{
+    background-image: url('assets/PELOURINHO2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: inline-flex;
+}
+
+.Perguntas{
+    margin: 40px;
+    padding: 10px 30;
+    width: 100%;
+    text-align: left; 
+    font-size: 15px;
+    color:#fff; 
+}
+
+.box{
+    width: 150%;
+    padding: 8%;
+    border: 2px #f15922 solid;
+    border-radius: 8px;
+}
+
+
+.text{
+    text-align: center; 
+    padding: 100px 400;
+    color:#fff;
+}
+
+.text p{
+    width: 360;
+    color:#fff;
+    font-size: 13;
+}
+
+.text button{
+    background-color: #f15922;
+    width: 200px;
+    height: 40;
+    border-radius: 5px;
+    color:#fff;
+    cursor: pointer;
+    border-color: #a83803;
+}
+
+.rodape{
+    background-color: black;
+    color: #fff;
+    padding: 20px 500;
+    display: flex;    
+}
+
+.rodape h2{
+    text-align: center;
+    font-size: 10;
+}
+
+.rodape i{
+    padding: 1px 60;
+}
