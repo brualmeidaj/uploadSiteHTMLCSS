@@ -356,3 +356,48 @@ section.main{
 .rodape i{
     padding: 1px 60;
 }
+
+
+/* RESPONSIVO */
+
+@media only screen and (max-width: 600px) {
+    .menu {
+        display: none !important;
+    }
+    .imgmenu {
+        display: flex !important;
+        margin-left: -150px !important; 
+    }
+    .logo img {
+        width: 364px !important;
+    }
+    section.main {
+        display: table-cell !important;
+    }
+    .textsalvador p {
+        font-size: 20px !important;
+    }
+    .main_cta {
+        display: inline-table !important;
+    }
+    .imgelevador img {
+        width: 392px !important;
+        margin-top: 50px !important;
+    }
+    .textsalvador h2 {
+        text-align: left !important;
+        font-size: 30px !important;
+    }
+    .imgessa img {
+        width: 396px !important;
+    }
+    .about {
+        display: inline-block !important;
+    }
+    .textone p {
+        margin: 0% !important;
+        text-align: left !important;
+        font-size: 25px !important;
+        display: inline !important;
+    }
+}
